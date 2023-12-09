@@ -13,8 +13,8 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'LazyPrincess')
 API_ID = int(environ.get('API_ID', '29170430')) 
- API_HASH = environ.get('API_HASH', '9fc333577002e5df00e88fd6da88f79b') 
- BOT_TOKEN = environ.get('BOT_TOKEN', "5739910416:AAGjC4hU38XVTclAJVPn0KmkTKu8Euejq_8")
+API_HASH = environ.get('API_HASH', '9fc333577002e5df00e88fd6da88f79b') 
+BOT_TOKEN = environ.get('BOT_TOKEN', "5739910416:AAGjC4hU38XVTclAJVPn0KmkTKu8Euejq_8")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -36,8 +36,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Righteous:G3jDw9Apdidbk1uq@cluster0.jh15z5c.mongodb.net/?retryWrites=true&w=majority") 
- DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") 
- COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") 
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001624607501'))
