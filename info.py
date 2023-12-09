@@ -41,7 +41,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Righteous:G3jDw9Apdidb
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001624607501'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'blastwallztv')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+oSmcepKMSp01NzI0')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
